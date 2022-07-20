@@ -231,18 +231,26 @@ body {
   line-height: 1.5; }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1296px; }
 
 .header {
   background: #AA0601; }
-  .header a {
+  .header .container {
+    padding: 12px 36px; }
+  .header .container a {
     width: 80px;
     height: 48px;
     background-image: url(../images/logo-white.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: 101%;
-    white-space: nowrap; }
+    white-space: nowrap;
+    overflow: hidden; }
+  .header .container li {
+    margin-left: 64px;
+    line-height: 54px;
+    color: white; }
 
 .c-light {
   color: #FBF2F2; }
@@ -434,6 +442,7 @@ body {
   line-height: 1.5; }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1296px; }
 
 /*# sourceMappingURL=all.css.map */
