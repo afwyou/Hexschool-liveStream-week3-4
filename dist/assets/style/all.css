@@ -184,6 +184,9 @@ img {
 .pl-16 {
   padding-left: 16px; }
 
+.pt-48 {
+  padding-top: 48px; }
+
 .pt-56 {
   padding-top: 56px; }
 
@@ -271,7 +274,7 @@ body {
 
 .footer {
   background: #AA0601;
-  padding-top: 36px; }
+  padding-top: 48px; }
   @media (max-width: 576px) {
     .footer .footer-menu {
       max-height: 0px;
@@ -472,6 +475,9 @@ img {
 .pl-16 {
   padding-left: 16px; }
 
+.pt-48 {
+  padding-top: 48px; }
+
 .pt-56 {
   padding-top: 56px; }
 
@@ -521,5 +527,33 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1296px; }
+
+.banner {
+  color: #650300;
+  max-width: 1920px;
+  height: 787px;
+  background-image: url(../images/home-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 787px;
+    padding-right: 12px; }
+  .banner .title {
+    font-weight: 900; }
+  .banner .subtitle {
+    font-size: 36px; }
+  .banner button {
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #650300;
+    color: #fff;
+    width: 104px;
+    height: 41px;
+    border: none; }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,2 +1,37 @@
 @import "./rwd";
 @import "./utilities";
+
+.banner{
+  color: #650300;
+  max-width:1920px ;
+  height: 787px;
+  background-image: url(../images/home-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 787px;
+    padding-right: 12px;
+  }
+  
+  .title{
+    font-weight: 900;
+  }
+  .subtitle{
+    font-size: 36px;
+  }
+  button{
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #650300;
+    color: #fff;
+    width: 104px;
+    height: 41px;
+    border: none;
+  }
+}
