@@ -670,6 +670,7 @@ body {
     margin-top: 48px; }
   .contact .container .checkbox {
     width: 24px;
-    height: 24px; }
+    height: 24px;
+    vertical-align: middle; }
 
 /*# sourceMappingURL=all.css.map */
