@@ -217,6 +217,24 @@ img {
 .fz-80 {
   font-size: 80px; }
 
+.fw-300 {
+  font-weight: 300; }
+
+.fw-400 {
+  font-weight: 400; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.fw-600 {
+  font-weight: 600; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fw-900 {
+  font-weight: 900; }
+
 .tac {
   text-align: center; }
 
@@ -508,6 +526,24 @@ img {
 .fz-80 {
   font-size: 80px; }
 
+.fw-300 {
+  font-weight: 300; }
+
+.fw-400 {
+  font-weight: 400; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.fw-600 {
+  font-weight: 600; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fw-900 {
+  font-weight: 900; }
+
 .tac {
   text-align: center; }
 
@@ -555,5 +591,10 @@ body {
     width: 104px;
     height: 41px;
     border: none; }
+
+.professional {
+  background: #FBF2F2; }
+  .professional li {
+    width: 25%; }
 
 /*# sourceMappingURL=all.css.map */
