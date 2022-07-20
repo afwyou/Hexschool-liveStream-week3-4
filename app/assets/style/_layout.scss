@@ -43,3 +43,37 @@
     }
   }
 }
+.footer{
+  .footer-menu{
+    margin-bottom: 36px;
+  }
+  .footer-menu li{
+    margin-right: 24px;
+  }
+  .footer-menu a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  background: #AA0601;
+  padding-top: 36px;
+  img {
+    width: 48px;
+    height: 48px;
+    margin-left: 32px;
+  }
+  h3{
+    font-size: 36px;
+    color: white;
+  }
+  h3 i {
+    margin-right: 22px;
+  }
+  .mail{
+    border-bottom: 1px solid #fff;
+  }
+  .copyright{
+    font-size: 16px;
+    color: white;
+  }
+}
