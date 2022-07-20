@@ -667,7 +667,9 @@ body {
     font-size: 16px;
     color: white;
     border: none;
-    margin-top: 48px;
-    display: inline-block; }
+    margin-top: 48px; }
+  .contact .container .checkbox {
+    width: 24px;
+    height: 24px; }
 
 /*# sourceMappingURL=all.css.map */
