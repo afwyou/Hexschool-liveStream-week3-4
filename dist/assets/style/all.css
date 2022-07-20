@@ -167,6 +167,9 @@ img {
 .px-12 {
   padding: 0 12px; }
 
+.pb-16 {
+  padding-bottom: 16px; }
+
 .pb-24 {
   padding-bottom: 24px; }
 
@@ -486,6 +489,9 @@ img {
 .px-12 {
   padding: 0 12px; }
 
+.pb-16 {
+  padding-bottom: 16px; }
+
 .pb-24 {
   padding-bottom: 24px; }
 
@@ -624,5 +630,14 @@ body {
   background-position: center; }
   .co-design li {
     background: white; }
+
+.recommend li {
+  box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px; }
+
+.recommend p {
+  padding-left: 16px;
+  padding-right: 16px; }
 
 /*# sourceMappingURL=all.css.map */
