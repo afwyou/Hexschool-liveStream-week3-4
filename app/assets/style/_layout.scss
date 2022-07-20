@@ -47,26 +47,37 @@
   background: #AA0601;
   padding-top: 36px;
   .footer-menu{
+    @include spad{
+      max-height: 0px;
+      flex-direction: column;
+    }
+  }
+  .footer-menu-list{
     margin-bottom: 36px;
     @include spad {
       display: none;
-      max-height: 0px;
     }
   }
   .footer-social {
     @include spad{
-    position: relative;
-    top: 50px;
+    // position: relative;
+    // top: 50px; //透過將父層高度關閉之後，高度自然就往下跑了
+    align-self: flex-end;
     }
 
   }
-  .footer-menu li{
+  .footer-menu-list li{
     margin-right: 24px;
+    @include pad {
+      margin-right: 16px;
+    }
+    
   }
-  .footer-menu a{
+  .footer-menu-list a{
     font-size: 16px;
     color: white;
     text-decoration: none;
+    
   }
   
   img {
@@ -75,6 +86,9 @@
     margin-left: 32px;
     @include pad{
       margin-left: 16px;
+    }
+    @include spad{
+      margin-left: 8px;
     }
   }
   h3{
@@ -86,12 +100,29 @@
   }
   h3 i {
     margin-right: 22px;
+    @include spad{
+      margin-right: 10px;
+    }
   }
   .mail{
     border-bottom: 1px solid #fff;
+    @include spad{
+      margin-bottom: 16px;
+    }
   }
   .copyright{
     font-size: 16px;
     color: white;
+    justify-content: space-between;
+    @include spad{
+      flex-direction: column;
+      // align-items: flex-start;
+      // color: black;
+      li{
+        margin-top: 8px;
+      }
+    }
+  
   }
+  
 }
