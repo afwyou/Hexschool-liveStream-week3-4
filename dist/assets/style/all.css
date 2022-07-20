@@ -640,4 +640,34 @@ body {
   padding-left: 16px;
   padding-right: 16px; }
 
+.contact {
+  background: #FBF2F2; }
+  .contact .container {
+    width: 637px;
+    display: flex;
+    flex-direction: column; }
+  .contact .container form {
+    text-align: left; }
+  .contact .container label {
+    font-size: 16px; }
+  .contact .container input {
+    margin-top: 8px;
+    width: 636px;
+    height: 33px;
+    margin-bottom: 16px; }
+  .contact .container textarea {
+    width: 636px;
+    height: 136px;
+    margin-top: 8px;
+    margin-bottom: 16px; }
+  .contact .container button {
+    width: 416px;
+    height: 56px;
+    background: #AA0601;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-top: 48px;
+    display: inline-block; }
+
 /*# sourceMappingURL=all.css.map */
