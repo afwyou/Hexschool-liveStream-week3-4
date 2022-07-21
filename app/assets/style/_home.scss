@@ -120,8 +120,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  ul {
+    @include pad {
+      flex-direction: column;
+    }
+  }
   li{
     background: white;
+    @include pad {
+      width: 95%;
+    }
+  }
+  .design-bg1{
+    height: 240px;
+    max-width: 648px;
+    background-image: url(../images/home-section4-1.png);
+    background-size: cover;
+  }
+  .design-bg2{
+    height: 240px;
+    max-width: 648px;
+    background-image: url(../images/home-section4-2.png);
+    background-size: cover;
   }
 }
 
