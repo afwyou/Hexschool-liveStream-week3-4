@@ -727,14 +727,34 @@ body {
       .co-design .design-bg2 {
         background-image: url(../images/home-section4-2-sm.png); } }
 
+@media (max-width: 768px) {
+  .recommend ul {
+    flex-wrap: wrap; } }
+
 .recommend li {
   box-shadow: 0px 2px 6px #00000029;
   border: 1px solid #DEE2E6;
   border-radius: 4px; }
-
-.recommend p {
-  padding-left: 16px;
-  padding-right: 16px; }
+  @media (max-width: 768px) {
+    .recommend li {
+      width: 45%;
+      margin-bottom: 24px; } }
+  @media (max-width: 576px) {
+    .recommend li {
+      width: 97%;
+      display: flex;
+      flex-direction: column; } }
+  @media (max-width: 768px) {
+    .recommend li img {
+      width: 336px;
+      height: 306px; } }
+  @media (max-width: 576px) {
+    .recommend li img {
+      width: 348px;
+      align-self: center; } }
+  .recommend li p {
+    padding-left: 16px;
+    padding-right: 16px; }
 
 .contact {
   background: #FBF2F2; }
