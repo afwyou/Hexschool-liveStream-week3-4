@@ -657,6 +657,11 @@ body {
       .professional li {
         width: 98%; } }
 
+@media (max-width: 768px) {
+  .classical .container {
+    padding-left: 12px;
+    padding-right: 12px; } }
+
 @media (max-width: 576px) {
   .classical .container h2 {
     font-size: 24px; } }
@@ -665,52 +670,62 @@ body {
   .classical .container ul {
     flex-direction: column; } }
 
-@media (max-width: 768px) {
-  .classical .container li {
-    width: 98%;
-    margin-bottom: 24px; } }
-
-@media (max-width: 768px) {
-  .classical .container li img {
-    width: 336px;
-    height: 336px; } }
-
-@media (max-width: 576px) {
-  .classical .container li img {
-    width: 348px;
-    height: 348px; } }
+.classical .container li {
+  width: 648px; }
+  @media (max-width: 768px) {
+    .classical .container li {
+      width: 98%;
+      margin-bottom: 24px; } }
 
 .co-design {
   background-image: url(../images/index-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
-  @media (max-width: 768px) {
-    .co-design ul {
-      flex-direction: column; } }
+  @media (max-width: 576px) {
+    .co-design h2 {
+      font-size: 24px; } }
+  .co-design ul {
+    padding-left: 24px;
+    padding-right: 24px; }
+    @media (max-width: 768px) {
+      .co-design ul {
+        padding-left: 0px;
+        padding-right: 0;
+        flex-wrap: wrap;
+        margin-left: 36px;
+        margin-right: 36px; } }
+  @media (max-width: 768px) and (max-width: 768px) {
+    .co-design ul .DOUBLE {
+      margin-bottom: 24px; } }
   .co-design li {
-    background: white; }
+    background: white;
+    width: 648px; }
     @media (max-width: 768px) {
       .co-design li {
-        width: 95%; } }
+        width: 696px; } }
   .co-design .design-bg1 {
     height: 240px;
-    width: 648px;
     background-image: url(../images/home-section4-1.png);
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
     @media (max-width: 768px) {
       .co-design .design-bg1 {
-        width: 696px;
         height: 240px; } }
+    @media (max-width: 576px) {
+      .co-design .design-bg1 {
+        background-image: url(../images/home-section4-1-sm.png); } }
   .co-design .design-bg2 {
     height: 240px;
-    max-width: 648px;
     background-image: url(../images/home-section4-2.png);
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
     @media (max-width: 768px) {
       .co-design .design-bg2 {
-        width: 696px;
         height: 240px; } }
+    @media (max-width: 576px) {
+      .co-design .design-bg2 {
+        background-image: url(../images/home-section4-2-sm.png); } }
 
 .recommend li {
   box-shadow: 0px 2px 6px #00000029;
