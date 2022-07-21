@@ -105,6 +105,12 @@
         width: 98%;
         margin-bottom: 24px;
        }
+       img {
+         @include pad {
+           width: 336px;
+           height: 336px;
+         }
+       }
       }
     }
   }
