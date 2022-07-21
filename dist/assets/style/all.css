@@ -657,6 +657,29 @@ body {
       .professional li {
         width: 98%; } }
 
+@media (max-width: 576px) {
+  .classical .container h2 {
+    font-size: 24px; } }
+
+@media (max-width: 768px) {
+  .classical .container ul {
+    flex-direction: column; } }
+
+@media (max-width: 768px) {
+  .classical .container li {
+    width: 98%;
+    margin-bottom: 24px; } }
+
+@media (max-width: 768px) {
+  .classical .container li img {
+    width: 336px;
+    height: 336px; } }
+
+@media (max-width: 576px) {
+  .classical .container li img {
+    width: 348px;
+    height: 348px; } }
+
 .co-design {
   background-image: url(../images/index-bg.png);
   background-size: cover;
