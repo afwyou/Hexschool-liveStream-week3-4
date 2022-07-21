@@ -598,6 +598,12 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (max-width: 768px) {
+    .banner {
+      background-image: url(../images/home-header-sm.png); } }
+  @media (max-width: 576px) {
+    .banner {
+      height: 396px; } }
   .banner .container {
     display: flex;
     flex-direction: column;
@@ -605,10 +611,23 @@ body {
     align-items: flex-end;
     height: 787px;
     padding-right: 12px; }
+    @media (max-width: 768px) {
+      .banner .container {
+        padding-right: 36px; } }
+    @media (max-width: 576px) {
+      .banner .container {
+        height: 396px;
+        padding-right: 14px; } }
   .banner .title {
     font-weight: 900; }
+    @media (max-width: 576px) {
+      .banner .title {
+        font-size: 24px; } }
   .banner .subtitle {
     font-size: 36px; }
+    @media (max-width: 576px) {
+      .banner .subtitle {
+        font-size: 16px; } }
   .banner button {
     font-size: 20px;
     padding: 6px 12px;

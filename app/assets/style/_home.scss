@@ -9,6 +9,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  @include pad {
+     background-image: url(../images/home-header-sm.png);
+  }
+  @include spad{
+    height: 396px;
+  }
 
   .container{
     display: flex;
@@ -17,13 +23,26 @@
     align-items: flex-end;
     height: 787px;
     padding-right: 12px;
+    @include pad {
+      padding-right: 36px;
+    }
+    @include spad{
+      height: 396px;
+      padding-right: 14px;
+    }
   }
   
   .title{
     font-weight: 900;
+    @include spad {
+      font-size: 24px;
+    }
   }
   .subtitle{
     font-size: 36px;
+    @include spad {
+      font-size: 16px;
+    }
   }
   button{
     font-size: 20px;
