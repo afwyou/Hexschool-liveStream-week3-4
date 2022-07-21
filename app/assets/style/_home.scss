@@ -214,10 +214,18 @@
 
 .contact {
   background: #FBF2F2;
+  @include pad {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
   .container{
     width: 637px;
     display: flex;
     flex-direction: column;
+    @include {
+      // margin-right: 96px;
+      // margin-left: 96px;
+    }
   }
   .container form{
     text-align: left;
