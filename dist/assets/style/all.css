@@ -639,8 +639,23 @@ body {
 
 .professional {
   background: #FBF2F2; }
+  @media (max-width: 768px) {
+    .professional .container {
+      padding-left: 12px; } }
+  @media (max-width: 576px) {
+    .professional .container h2 {
+      font-size: 24px; } }
+  @media (max-width: 768px) {
+    .professional ul {
+      flex-wrap: wrap; } }
   .professional li {
     width: 25%; }
+    @media (max-width: 768px) {
+      .professional li {
+        width: 46%; } }
+    @media (max-width: 576px) {
+      .professional li {
+        width: 98%; } }
 
 .co-design {
   background-image: url(../images/index-bg.png);

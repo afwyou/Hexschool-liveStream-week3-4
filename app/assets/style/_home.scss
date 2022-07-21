@@ -57,10 +57,32 @@
 
 .professional {
   background: #FBF2F2;
+  .container {
+    @include pad {
+      padding-left: 12px;
+    }
+    h2 {
+      @include spad {
+        font-size: 24px;
+      }
+    }
+  }
+  ul{
+    @include pad {
+      flex-wrap: wrap;
+    }
+  }
   li{
     width: 25%;
+    @include pad {
+      width: 46%;
+    }
+    @include spad {
+      width: 98%;
+    }
   }
 }
+
 .co-design{
   background-image: url(../images/index-bg.png);
   background-size: cover;
