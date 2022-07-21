@@ -125,7 +125,6 @@
     @include pad {
       padding-left: 0px;
       padding-right: 0;
-      // flex-direction: column;
       flex-wrap: wrap;
       margin-left: 36px;
       margin-right: 36px;
@@ -140,12 +139,10 @@
   li{
     background: white;
     width: 648px;
-    // 設定max-width 沒辦法讓li自適應父層寬度，因為在df的作用下，元素會自適應內容寬度，導致li寬度變得跟下面標題寬度一樣
+    // 設定max-width 沒辦法讓li自適應父層寬度，因為在df的作用下，主軸方向元素會自適應內容寬度，導致li寬度變得跟下面標題寬度一樣，交錯軸才會適應父曾寬度
     @include pad {
-      // width: 0;
       width: 696px;
-      // 同時設定max-width 和width 時，會套用width
-      // 跑來pad的時候，max-width就有用了，因為pad的時候是flex-column???  再去測試flex-row-wrap 試試看
+      // 同時設定max-width 和width 時，會套用width，沒辦法消除width的屬性，所以最後乾脆都直接用width，主軸方向不要改變
     }
   }
   .design-bg1{
