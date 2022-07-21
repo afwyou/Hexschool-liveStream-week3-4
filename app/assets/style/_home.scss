@@ -215,33 +215,46 @@
 .contact {
   background: #FBF2F2;
   @include pad {
-    padding-left: 96px;
-    padding-right: 96px;
+     padding-left: 14px;
+     padding-right: 14px;
+
   }
   .container{
-    width: 637px;
+    max-width: 637px;
     display: flex;
     flex-direction: column;
-    @include {
+    @include pad{
       // margin-right: 96px;
       // margin-left: 96px;
+      max-width: 576px;
+    }
+    h3 {
+      @include spad {
+        font-size: 24px;
+      }
+    }
+    p {
+      @include spad {
+        font-size: 16px;
+      }
     }
   }
   .container form{
     text-align: left;
-    
+    display: flex;
+    flex-direction: column;
   }
   .container  label{
     font-size: 16px;
   }
   .container input {
     margin-top: 8px;
-    width: 636px;
+    max-width: 636px;
     height: 33px;
     margin-bottom: 16px;
   } 
   .container textarea{
-    width: 636px;
+    max-width: 636px;
     height: 136px;
     margin-top: 8px;
     margin-bottom: 16px;
@@ -254,12 +267,25 @@
     color: white;
     border: none;
     margin-top: 48px;
+    @include pad {
+      width: 336px;
+    }
+    @include spad {
+      max-width: 348 px;
+    }
   }
   .container .checkbox{
     width: 24px;
     height: 24px;
-    vertical-align: middle;
+   margin-bottom: 8px;
+   margin-top: 0;
+
+    // vertical-align:bottom;
   
   }
+  .container .checkbox-label{
+    margin-left: 4px;
+  }
+
 
 }

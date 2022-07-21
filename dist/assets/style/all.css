@@ -206,6 +206,12 @@ img {
 .pt-80 {
   padding-top: 80px; }
 
+.pr-96 {
+  padding-right: 96px; }
+
+.pl-96 {
+  padding-left: 96px; }
+
 .fz-16 {
   font-size: 16px; }
 
@@ -528,6 +534,12 @@ img {
 .pt-80 {
   padding-top: 80px; }
 
+.pr-96 {
+  padding-right: 96px; }
+
+.pl-96 {
+  padding-left: 96px; }
+
 .fz-16 {
   font-size: 16px; }
 
@@ -758,21 +770,36 @@ body {
 
 .contact {
   background: #FBF2F2; }
+  @media (max-width: 768px) {
+    .contact {
+      padding-left: 14px;
+      padding-right: 14px; } }
   .contact .container {
-    width: 637px;
+    max-width: 637px;
     display: flex;
     flex-direction: column; }
+    @media (max-width: 768px) {
+      .contact .container {
+        max-width: 576px; } }
+    @media (max-width: 576px) {
+      .contact .container h3 {
+        font-size: 24px; } }
+    @media (max-width: 576px) {
+      .contact .container p {
+        font-size: 16px; } }
   .contact .container form {
-    text-align: left; }
+    text-align: left;
+    display: flex;
+    flex-direction: column; }
   .contact .container label {
     font-size: 16px; }
   .contact .container input {
     margin-top: 8px;
-    width: 636px;
+    max-width: 636px;
     height: 33px;
     margin-bottom: 16px; }
   .contact .container textarea {
-    width: 636px;
+    max-width: 636px;
     height: 136px;
     margin-top: 8px;
     margin-bottom: 16px; }
@@ -784,9 +811,18 @@ body {
     color: white;
     border: none;
     margin-top: 48px; }
+    @media (max-width: 768px) {
+      .contact .container button {
+        width: 336px; } }
+    @media (max-width: 576px) {
+      .contact .container button {
+        max-width: 348 px; } }
   .contact .container .checkbox {
     width: 24px;
     height: 24px;
-    vertical-align: middle; }
+    margin-bottom: 8px;
+    margin-top: 0; }
+  .contact .container .checkbox-label {
+    margin-left: 4px; }
 
 /*# sourceMappingURL=all.css.map */
