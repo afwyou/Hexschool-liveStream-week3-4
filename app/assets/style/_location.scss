@@ -40,41 +40,52 @@
       height: 224px;
     }
     h2{
-      // border-left: 1px solid #00000020;
+      padding-top: 8px;
+      padding-bottom: 8px;
       border-bottom: 1px solid #00000020;
       padding-left: 24px;
     }
     .location-data{
       padding-left: 24px;
+      padding-right: 12px;
       font-size: 20px;
-      ul{
-        padding-right: 24px;
-        padding-left: 28px;
+      margin-bottom: 16px;
+      span{
+        vertical-align: middle;
+        margin-right: 8px;
       }
       .phone {
         margin-bottom: 8px;
-        &::before{
-           font-family: "Font Awesome 5 Free"; font-weight: 900; 
-           content: "\f098";
-           margin-right: 10px;
-        }
+        // &::before{
+        //    font-family: "Font Awesome 5 Free"; font-weight: 900; 
+        //    content: "\f098";
+        //    margin-right: 10px;
+        // }
       }
       .time {
         margin-bottom: 8px;
-        &::before{
-           font-family: "Font Awesome 5 Free"; font-weight: 900; 
-           content: "\f017";
-           margin-right: 10px;
-        }
+        // &::before{
+        //    font-family: "Font Awesome 5 Free"; font-weight: 900; 
+        //    content: "\f017";
+        //    margin-right: 10px;
+        // }
       }
       .address {
-
-        &::before{
-           font-family: "Font Awesome 5 Free"; font-weight: 900; 
-           content: "\f3c5";
-           margin-right: 10px;
-        }
+        // padding-right: 80px;
+        // &::before{
+        //    font-family: "Font Awesome 5 Free"; font-weight: 900; 
+        //    content: "\f3c5";
+        //    margin-right: 10px;
+        // }
       }
+    }
+    .location-link{
+      text-align: center;
+      font-size: 27px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      color: white;
+      background: #000;
     }
   }
 }

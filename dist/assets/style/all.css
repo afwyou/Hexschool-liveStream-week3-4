@@ -1895,32 +1895,28 @@ body {
       width: 416px;
       height: 224px; }
     .location .location-card h2 {
+      padding-top: 8px;
+      padding-bottom: 8px;
       border-bottom: 1px solid #00000020;
       padding-left: 24px; }
     .location .location-card .location-data {
       padding-left: 24px;
-      font-size: 20px; }
-      .location .location-card .location-data ul {
-        padding-right: 24px;
-        padding-left: 28px; }
+      padding-right: 12px;
+      font-size: 20px;
+      margin-bottom: 16px; }
+      .location .location-card .location-data span {
+        vertical-align: middle;
+        margin-right: 8px; }
       .location .location-card .location-data .phone {
         margin-bottom: 8px; }
-        .location .location-card .location-data .phone::before {
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          content: "\f098";
-          margin-right: 10px; }
       .location .location-card .location-data .time {
         margin-bottom: 8px; }
-        .location .location-card .location-data .time::before {
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          content: "\f017";
-          margin-right: 10px; }
-      .location .location-card .location-data .address::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f3c5";
-        margin-right: 10px; }
+    .location .location-card .location-link {
+      text-align: center;
+      font-size: 27px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      color: white;
+      background: #000; }
 
 /*# sourceMappingURL=all.css.map */
