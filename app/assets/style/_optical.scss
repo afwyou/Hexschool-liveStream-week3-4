@@ -1,0 +1,35 @@
+@import "./rwd";
+@import "./utilities";
+
+
+.optical-menu {
+  ul{
+    li{
+      width: 33.3%;
+      text-align: center;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+    .optical-menu-list{
+      border-bottom: 8px solid #AA0601;
+    }
+
+  }
+}
+.optical-bg{
+  display: flex;
+  .optical-bg-item{
+    width: 960px;
+    height: calc(0.3*100vw*0.5);
+    // 讓高跟著寬度變化
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .optical-bg-item-1{
+    background-image: url(../images/product-header-1.png);
+  }
+  .optical-bg-item-2{
+    background-image: url(../images/product-header-2.png);
+  }
+}
