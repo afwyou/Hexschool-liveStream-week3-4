@@ -1884,4 +1884,43 @@ body {
     width: 304px;
     height: 38px; }
 
+.location {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .location .location-card {
+    border: 1px solid #00000020; }
+    .location .location-card img {
+      width: 416px;
+      height: 224px; }
+    .location .location-card h2 {
+      border-bottom: 1px solid #00000020;
+      padding-left: 24px; }
+    .location .location-card .location-data {
+      padding-left: 24px;
+      font-size: 20px; }
+      .location .location-card .location-data ul {
+        padding-right: 24px;
+        padding-left: 28px; }
+      .location .location-card .location-data .phone {
+        margin-bottom: 8px; }
+        .location .location-card .location-data .phone::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f098";
+          margin-right: 10px; }
+      .location .location-card .location-data .time {
+        margin-bottom: 8px; }
+        .location .location-card .location-data .time::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f017";
+          margin-right: 10px; }
+      .location .location-card .location-data .address::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f3c5";
+        margin-right: 10px; }
+
 /*# sourceMappingURL=all.css.map */
