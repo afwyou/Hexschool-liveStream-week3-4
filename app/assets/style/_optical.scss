@@ -57,8 +57,31 @@
   }
 }
 .Celluloid-Combi {
+  h1 {
+      @include spad {
+        font-size: 24px;
+      }
+      span {
+        @include spad {
+        font-size: 24px;
+      }
+      }
+    }
   .Combi-product{
+    gap: 80px 24px;
+    margin-bottom: 10px;
+    @include pad {
+      gap: 40px 24px;
+      margin-bottom: 80px;
+    }
+    @include spad {
+      gap: 24px;
+      margin-bottom: 75px;
+    }
+    
     .Combi-product-card{
+      // margin-bottom: 80px;
+
       ul .model-price{
         display: flex;
         justify-content: space-between;
@@ -73,6 +96,12 @@
       ul img{
         width: 306px;  
         height: 168px;
+        @include pad {
+          width: 336px;
+        }
+        @include spad {
+          width: 348px;
+        }
       }
       ul .color-square {
         width: 24px;
