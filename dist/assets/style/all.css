@@ -56,6 +56,9 @@ table {
 .c-white {
   color: white; }
 
+.dib {
+  display: inline-block; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 
@@ -386,6 +389,9 @@ body {
 
 .c-white {
   color: white; }
+
+.dib {
+  display: inline-block; }
 
 *, *::after, *::before {
   box-sizing: border-box; }
@@ -850,6 +856,9 @@ body {
 .c-white {
   color: white; }
 
+.dib {
+  display: inline-block; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 
@@ -1131,12 +1140,13 @@ body {
 
 .Celluloid-Combi .Combi-product .Combi-product-card ul .color-square {
   width: 24px;
-  height: 24px; }
+  height: 24px;
+  border-radius: 4px; }
 
-.Celluloid-Combi .Combi-product .Combi-product-card ul .color-square .color-square-1 {
+.Celluloid-Combi .Combi-product .Combi-product-card ul .square-1 {
   background: #5F3E2D; }
 
-.Celluloid-Combi .Combi-product .Combi-product-card ul .color-square .color-square-1 {
+.Celluloid-Combi .Combi-product .Combi-product-card ul .square-2 {
   background: #B75929; }
 
 /*# sourceMappingURL=all.css.map */
