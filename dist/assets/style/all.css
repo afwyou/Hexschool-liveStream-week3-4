@@ -284,6 +284,11 @@ img {
   .link-layout:hover {
     color: #B75929; }
 
+.pagination {
+  text-align: center; }
+  .pagination ul {
+    margin: 0 auto; }
+
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
   line-height: 1.5; }
@@ -629,6 +634,11 @@ img {
   color: white; }
   .link-layout:hover {
     color: #B75929; }
+
+.pagination {
+  text-align: center; }
+  .pagination ul {
+    margin: 0 auto; }
 
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
@@ -1108,6 +1118,11 @@ img {
   .link-layout:hover {
     color: #B75929; }
 
+.pagination {
+  text-align: center; }
+  .pagination ul {
+    margin: 0 auto; }
+
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
   line-height: 1.5; }
@@ -1203,5 +1218,40 @@ body {
     background: #5F3E2D; }
   .Celluloid-Combi .Combi-product .Combi-product-card ul .square-2 {
     background: #B75929; }
+
+.pagination {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center; }
+  @media (max-width: 576px) {
+    .pagination {
+      margin-bottom: 64px; } }
+  .pagination ul {
+    margin: 0 auto; }
+  .pagination ul li {
+    width: 42px;
+    height: 48px;
+    border: 1px solid #555555;
+    font-size: 18px;
+    line-height: 48px;
+    color: #555555; }
+    @media (max-width: 576px) {
+      .pagination ul li {
+        font-size: 16px;
+        width: 40px;
+        height: 45px; } }
+  .pagination ul .last, .pagination ul .next {
+    width: 81px;
+    font-size: 19px;
+    color: #555555; }
+    @media (max-width: 576px) {
+      .pagination ul .last, .pagination ul .next {
+        font-size: 16px;
+        width: 75px; } }
+  .pagination ul .next {
+    background: #F2F2F2; }
+  .pagination ul .page-2 {
+    background: #000;
+    color: white; }
 
 /*# sourceMappingURL=all.css.map */
