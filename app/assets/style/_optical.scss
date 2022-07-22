@@ -9,6 +9,14 @@
       text-align: center;
       padding-top: 24px;
       padding-bottom: 24px;
+      @include pad{
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      @include spad{
+        font-size: 16px;
+      }
     }
     .optical-menu-list{
       border-bottom: 8px solid #AA0601;
@@ -25,11 +33,26 @@
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
+    @include pad {
+      width: 384px;
+      height: 296px;
+    }
+    @include spad {
+      // width: 188px;
+      height: 136px;
+      // rwd改變高度即可
+    }
   }
   .optical-bg-item-1{
     background-image: url(../images/product-header-1.png);
+    @include pad {
+      background-image: url(../images/product-header-sm-1.png);
+    }
   }
   .optical-bg-item-2{
     background-image: url(../images/product-header-2.png);
+    @include pad {
+      background-image: url(../images/product-header-sm-2.png);
+    }
   }
 }

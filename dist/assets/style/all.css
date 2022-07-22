@@ -1067,6 +1067,14 @@ body {
   text-align: center;
   padding-top: 24px;
   padding-bottom: 24px; }
+  @media (max-width: 768px) {
+    .optical-menu ul li {
+      font-size: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px; } }
+  @media (max-width: 576px) {
+    .optical-menu ul li {
+      font-size: 16px; } }
 
 .optical-menu ul .optical-menu-list {
   border-bottom: 8px solid #AA0601; }
@@ -1079,9 +1087,22 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
+    @media (max-width: 768px) {
+      .optical-bg .optical-bg-item {
+        width: 384px;
+        height: 296px; } }
+    @media (max-width: 576px) {
+      .optical-bg .optical-bg-item {
+        height: 136px; } }
   .optical-bg .optical-bg-item-1 {
     background-image: url(../images/product-header-1.png); }
+    @media (max-width: 768px) {
+      .optical-bg .optical-bg-item-1 {
+        background-image: url(../images/product-header-sm-1.png); } }
   .optical-bg .optical-bg-item-2 {
     background-image: url(../images/product-header-2.png); }
+    @media (max-width: 768px) {
+      .optical-bg .optical-bg-item-2 {
+        background-image: url(../images/product-header-sm-2.png); } }
 
 /*# sourceMappingURL=all.css.map */
