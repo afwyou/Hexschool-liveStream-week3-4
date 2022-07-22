@@ -1,0 +1,42 @@
+---
+title: location
+layout: ./app/layout.ejs
+engine: ejs
+current: location
+---
+
+<div class="container location-title">
+  <h1 class="fz-48 fw-900">門市據點</h1>
+</div>
+<div class="search-bar container">
+  <div>
+    <label for="area">選擇地區</label>
+    <select name="" id="area" value="">
+      <option value="台北市">台北市</option>
+      <option value="南投市">南投市</option>
+    </select>
+  </div>
+</div>
+
+<div class="location container">
+  <div class="location-card">
+    <ul class="location-card-content">
+      <li class="location-card-content-list">
+        <img src="./assets/images/store-1.png" alt="">
+      </li>
+      <li class="location-card-content-list">
+        <h2 class="fz-24">台北中山旗艦店</h2>
+      </li>
+      <li class="location-card-content-list">
+        <ul class="location-data">
+          <li class="location-data-list phone">電話：(02)000-1234</li>
+          <li class="location-data-list time">營業時間：10:00-21:00</li>
+          <li class="location-data-list address">地址：台北市中山區南京東路25巷2-1號</li>
+        </ul>
+      </li>
+      <li class="location-card-content-list location-link">
+        詳細資訊
+      </li>
+    </ul>
+  </div>
+</div>

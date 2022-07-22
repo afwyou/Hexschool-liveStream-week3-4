@@ -1,2 +1,29 @@
 @import "./rwd";
 @import "./utilities";
+
+
+.location-title {
+  padding-left: 12px;
+  margin-bottom: 33px;
+  margin-top: 96px;
+  h1 {
+    padding-left: 16px;
+    border-left: 8px solid #9F1213 ;
+  }
+}
+
+.search-bar{
+  padding-left: 12px;
+  margin-bottom: 46px;
+  label {
+    font-size: 24px;
+    margin-right: 16px;
+    // line-height: 40px;
+    vertical-align: middle;
+  }
+  select {
+    // display: inline-block;
+    width: 304px;
+    height: 38px;
+  }
+}
