@@ -1890,8 +1890,7 @@ body {
   justify-content: center;
   flex-wrap: wrap; }
   .location .location-card {
-    border: 1px solid #00000020;
-    padding-right: 50px; }
+    border: 1px solid #00000020; }
     .location .location-card img {
       width: 416px;
       height: 224px; }
@@ -1902,7 +1901,6 @@ body {
       padding-left: 24px; }
     .location .location-card .location-data {
       padding-left: 24px;
-      padding-right: 12px;
       font-size: 20px;
       margin-bottom: 16px; }
       .location .location-card .location-data span {
@@ -1913,7 +1911,7 @@ body {
       .location .location-card .location-data .time {
         margin-bottom: 8px; }
       .location .location-card .location-data .address {
-        padding-right: 80px; }
+        width: 336px; }
     .location .location-card .location-link {
       text-align: center;
       font-size: 27px;
