@@ -240,6 +240,21 @@ img {
   .d-ib{
     display: inline-block;
   }
+  .link{
+    text-decoration: none;
+    color: black;
+    &:hover{
+      color:#AA0601
+    }
+  }
+  .link-layout{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color:#B75929;
+      // background:yellow;
+    }
+  }
 
 
 

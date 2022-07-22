@@ -272,6 +272,18 @@ img {
 .d-ib {
   display: inline-block; }
 
+.link {
+  text-decoration: none;
+  color: black; }
+  .link:hover {
+    color: #AA0601; }
+
+.link-layout {
+  text-decoration: none;
+  color: white; }
+  .link-layout:hover {
+    color: #B75929; }
+
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
   line-height: 1.5; }
@@ -605,6 +617,18 @@ img {
 
 .d-ib {
   display: inline-block; }
+
+.link {
+  text-decoration: none;
+  color: black; }
+  .link:hover {
+    color: #AA0601; }
+
+.link-layout {
+  text-decoration: none;
+  color: white; }
+  .link-layout:hover {
+    color: #B75929; }
 
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
@@ -1071,6 +1095,18 @@ img {
 
 .d-ib {
   display: inline-block; }
+
+.link {
+  text-decoration: none;
+  color: black; }
+  .link:hover {
+    color: #AA0601; }
+
+.link-layout {
+  text-decoration: none;
+  color: white; }
+  .link-layout:hover {
+    color: #B75929; }
 
 body {
   font-family: 'Roboto','Noto Sans TC', sans-serif;
