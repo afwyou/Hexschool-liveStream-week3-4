@@ -1890,7 +1890,8 @@ body {
   justify-content: center;
   flex-wrap: wrap; }
   .location .location-card {
-    border: 1px solid #00000020; }
+    border: 1px solid #00000020;
+    padding-right: 50px; }
     .location .location-card img {
       width: 416px;
       height: 224px; }
@@ -1911,6 +1912,8 @@ body {
         margin-bottom: 8px; }
       .location .location-card .location-data .time {
         margin-bottom: 8px; }
+      .location .location-card .location-data .address {
+        padding-right: 80px; }
     .location .location-card .location-link {
       text-align: center;
       font-size: 27px;
