@@ -56,3 +56,36 @@
     }
   }
 }
+.Celluloid-Combi {
+  .Combi-product{
+    .Combi-product-card{
+      ul .model-price{
+        display: flex;
+        justify-content: space-between;
+      }
+      ul .model-price .price{
+        color: #AA0601;
+        font-weight: 500;
+      }
+      ul .model-price .model{
+        font-weight: 400;
+      }
+      ul img{
+        width: 306px;  
+        height: 168px;
+      }
+      ul .color-square {
+        width: 24px;
+        height: 24px;
+      }
+      ul .color-square .color-square-1{        
+        background: #5F3E2D;
+      }
+      ul .color-square .color-square-1{        
+        background: #B75929;
+      }
+
+      
+    }
+  }
+}

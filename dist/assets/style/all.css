@@ -1114,4 +1114,29 @@ body {
       .optical-bg .optical-bg-item-2 {
         background-image: url(../images/product-header-sm-2.png); } }
 
+.Celluloid-Combi .Combi-product .Combi-product-card ul .model-price {
+  display: flex;
+  justify-content: space-between; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul .model-price .price {
+  color: #AA0601;
+  font-weight: 500; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul .model-price .model {
+  font-weight: 400; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul img {
+  width: 306px;
+  height: 168px; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul .color-square {
+  width: 24px;
+  height: 24px; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul .color-square .color-square-1 {
+  background: #5F3E2D; }
+
+.Celluloid-Combi .Combi-product .Combi-product-card ul .color-square .color-square-1 {
+  background: #B75929; }
+
 /*# sourceMappingURL=all.css.map */
