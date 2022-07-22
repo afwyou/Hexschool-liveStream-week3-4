@@ -9,22 +9,34 @@
   h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213 ;
+    @include spad {
+        font-size: 24px;
+  }
   }
 }
 
 .search-bar{
   padding-left: 12px;
   margin-bottom: 46px;
+  @include spad {
+     margin-bottom: 24px;
+  }
   label {
     font-size: 24px;
     margin-right: 16px;
     // line-height: 40px;
     vertical-align: middle;
+    @include spad {
+    font-size: 16px;
+  }
   }
   select {
     // display: inline-block;
     width: 304px;
     height: 38px;
+    @include spad {
+        width: 276px;
+  }
   }
 }
 
@@ -33,13 +45,22 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-weight: 400;
+  gap: 48px 24px;
+  @include pad {
+      gap: 24px 24px;
+  }
   .location-card {
+    // width: 416px;
     border: 1px solid #00000020;
     // padding-right: 50px;
     //    這裡也會把容器撐開？？
     img{
-      width: 416px;
+      width: 414px;
       height: 224px;
+      @include pad {
+        width: 337px;
+  }
     }
     h2{
       padding-top: 8px;
@@ -76,6 +97,9 @@
       .address {
         // padding-right: 80px;
         width: 336px;
+        @include pad {
+        width: 256px;
+  }
         // 這裡也會把容器拉寬
         // &::before{
         //    font-family: "Font Awesome 5 Free"; font-weight: 900; 
@@ -91,6 +115,9 @@
       padding-bottom: 16px;
       color: white;
       background: #000;
+      @include spad {
+        font-size: 19px;;
+  }
     }
   }
 }

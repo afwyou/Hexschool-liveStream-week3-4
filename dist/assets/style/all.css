@@ -1872,28 +1872,48 @@ body {
   .location-title h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213; }
+    @media (max-width: 576px) {
+      .location-title h1 {
+        font-size: 24px; } }
 
 .search-bar {
   padding-left: 12px;
   margin-bottom: 46px; }
+  @media (max-width: 576px) {
+    .search-bar {
+      margin-bottom: 24px; } }
   .search-bar label {
     font-size: 24px;
     margin-right: 16px;
     vertical-align: middle; }
+    @media (max-width: 576px) {
+      .search-bar label {
+        font-size: 16px; } }
   .search-bar select {
     width: 304px;
     height: 38px; }
+    @media (max-width: 576px) {
+      .search-bar select {
+        width: 276px; } }
 
 .location {
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-weight: 400;
+  gap: 48px 24px; }
+  @media (max-width: 768px) {
+    .location {
+      gap: 24px 24px; } }
   .location .location-card {
     border: 1px solid #00000020; }
     .location .location-card img {
-      width: 416px;
+      width: 414px;
       height: 224px; }
+      @media (max-width: 768px) {
+        .location .location-card img {
+          width: 337px; } }
     .location .location-card h2 {
       padding-top: 8px;
       padding-bottom: 8px;
@@ -1912,6 +1932,9 @@ body {
         margin-bottom: 8px; }
       .location .location-card .location-data .address {
         width: 336px; }
+        @media (max-width: 768px) {
+          .location .location-card .location-data .address {
+            width: 256px; } }
     .location .location-card .location-link {
       text-align: center;
       font-size: 27px;
@@ -1919,5 +1942,8 @@ body {
       padding-bottom: 16px;
       color: white;
       background: #000; }
+      @media (max-width: 576px) {
+        .location .location-card .location-link {
+          font-size: 19px; } }
 
 /*# sourceMappingURL=all.css.map */
