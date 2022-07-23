@@ -42,32 +42,38 @@
 .store {
   margin-bottom: 80px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  padding-left: 12px;
+
   .store-card-container{
+    max-width: 526px;
     border: 1px solid #00000020;
-    padding-left: 12px;
+    margin-right: 24px;
     display: flex;
     flex-wrap: wrap;
     font-weight: 400;
-    gap: 48px 24px;
     @include pad {
-        gap: 24px 24px;
-        padding-left: 34px;
-        padding-right: 34px;
+
     }
   }
-  .store-card-container .location-card {
+  .store-card-container .store-card {
+    @include pad {
+      display: flex;
+    }
      img{
-      width: 414px;
-      height: 224px;
+      width: 526px;
+      // height: auto;
       @include pad {
-        width: 335px;
+        width: 337px;
+
   }
     }
      h2{
       padding-top: 8px;
       padding-bottom: 8px;
       padding-left: 24px;
+      border-bottom: 1px solid #00000020;
     }
      
   }
@@ -86,7 +92,7 @@
         margin-bottom: 8px;
       }
       .address {
-        width: 336px;
+        // width: 336px;
         @include pad {
         width: 256px;
         }
