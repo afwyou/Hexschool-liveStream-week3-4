@@ -2233,46 +2233,47 @@ body {
       .search-bar select {
         width: 276px; } }
 
-.location {
+.store {
   margin-bottom: 80px;
   display: flex;
   justify-content: center; }
-  .location .location-card-container {
+  .store .store-card-container {
+    border: 1px solid #00000020;
     padding-left: 12px;
     display: flex;
     flex-wrap: wrap;
     font-weight: 400;
     gap: 48px 24px; }
     @media (max-width: 768px) {
-      .location .location-card-container {
+      .store .store-card-container {
         gap: 24px 24px;
         padding-left: 34px;
         padding-right: 34px; } }
-  .location .location-card-container .location-card img {
+  .store .store-card-container .location-card img {
     width: 414px;
     height: 224px; }
     @media (max-width: 768px) {
-      .location .location-card-container .location-card img {
+      .store .store-card-container .location-card img {
         width: 335px; } }
-  .location .location-card-container .location-card h2 {
+  .store .store-card-container .location-card h2 {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px; }
-  .location .location-card-container .location-data {
+  .store .store-card-container .store-data {
     padding-left: 24px;
     font-size: 20px;
     margin-bottom: 16px; }
-    .location .location-card-container .location-data span {
+    .store .store-card-container .store-data span {
       vertical-align: middle;
       margin-right: 8px; }
-    .location .location-card-container .location-data .phone {
+    .store .store-card-container .store-data .phone {
       margin-bottom: 8px; }
-    .location .location-card-container .location-data .time {
+    .store .store-card-container .store-data .time {
       margin-bottom: 8px; }
-    .location .location-card-container .location-data .address {
+    .store .store-card-container .store-data .address {
       width: 336px; }
       @media (max-width: 768px) {
-        .location .location-card-container .location-data .address {
+        .store .store-card-container .store-data .address {
           width: 256px; } }
 
 /*# sourceMappingURL=all.css.map */
