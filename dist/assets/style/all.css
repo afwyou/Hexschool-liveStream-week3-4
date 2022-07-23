@@ -1899,43 +1899,48 @@ body {
 .location {
   margin-bottom: 80px;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-weight: 400;
-  gap: 48px 24px; }
-  @media (max-width: 768px) {
-    .location {
-      gap: 24px 24px; } }
-  .location .location-card {
+  justify-content: center; }
+  .location .location-card-container {
+    padding-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    gap: 48px 24px; }
+    @media (max-width: 768px) {
+      .location .location-card-container {
+        gap: 24px 24px;
+        padding-left: 34px;
+        padding-right: 34px; } }
+  .location .location-card-container .location-card {
     border: 1px solid #00000020; }
-    .location .location-card img {
+    .location .location-card-container .location-card img {
       width: 414px;
       height: 224px; }
       @media (max-width: 768px) {
-        .location .location-card img {
-          width: 337px; } }
-    .location .location-card h2 {
+        .location .location-card-container .location-card img {
+          width: 335px; } }
+    .location .location-card-container .location-card h2 {
       padding-top: 8px;
       padding-bottom: 8px;
       border-bottom: 1px solid #00000020;
       padding-left: 24px; }
-    .location .location-card .location-data {
+    .location .location-card-container .location-card .location-data {
       padding-left: 24px;
       font-size: 20px;
       margin-bottom: 16px; }
-      .location .location-card .location-data span {
+      .location .location-card-container .location-card .location-data span {
         vertical-align: middle;
         margin-right: 8px; }
-      .location .location-card .location-data .phone {
+      .location .location-card-container .location-card .location-data .phone {
         margin-bottom: 8px; }
-      .location .location-card .location-data .time {
+      .location .location-card-container .location-card .location-data .time {
         margin-bottom: 8px; }
-      .location .location-card .location-data .address {
+      .location .location-card-container .location-card .location-data .address {
         width: 336px; }
         @media (max-width: 768px) {
-          .location .location-card .location-data .address {
+          .location .location-card-container .location-card .location-data .address {
             width: 256px; } }
-    .location .location-card .location-link {
+    .location .location-card-container .location-card .location-link {
       text-align: center;
       font-size: 27px;
       padding-top: 16px;
@@ -1943,7 +1948,7 @@ body {
       color: white;
       background: #000; }
       @media (max-width: 576px) {
-        .location .location-card .location-link {
+        .location .location-card-container .location-card .location-link {
           font-size: 19px; } }
 
 /*# sourceMappingURL=all.css.map */
