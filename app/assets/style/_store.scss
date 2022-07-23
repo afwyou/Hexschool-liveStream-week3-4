@@ -47,55 +47,80 @@
   padding-left: 12px;
 
   .store-card-container{
-    max-width: 526px;
-    border: 1px solid #00000020;
+    // max-width: 526px;
     margin-right: 24px;
-    display: flex;
-    flex-wrap: wrap;
     font-weight: 400;
     @include pad {
-
+     max-width: 696px;
+     margin-bottom: 24px;
+     display: flex;
     }
+    @include spad{
+      width: 348px;
+      margin-right: 0;
+      flex-wrap: wrap;
+    }
+    .store-img {
+     width: 526px;
+     // height: auto;
+     @include pad {
+       width: 337px;
+       margin-right: 24px;
+       }
+      @include spad{
+         width: 348px;
+       }
+     }
   }
+
   .store-card-container .store-card {
+    border: 1px solid #00000020;
     @include pad {
-      display: flex;
-    }
-     img{
-      width: 526px;
-      // height: auto;
-      @include pad {
-        width: 337px;
+      // margin-bottom: 24px;
+          //  margin-left: 24px;
 
-  }
     }
-     h2{
+     .store-card-list-title{
       padding-top: 8px;
       padding-bottom: 8px;
       padding-left: 24px;
       border-bottom: 1px solid #00000020;
     }
-     
-  }
-  .store-card-container .store-data{
-      padding-left: 24px;
-      font-size: 20px;
-      margin-bottom: 16px;
-      span{
-        vertical-align: middle;
-        margin-right: 8px;
-      }
-      .phone {
-        margin-bottom: 8px;
-      }
-      .time {
-        margin-bottom: 8px;
-      }
-      .address {
-        // width: 336px;
+    .store-data{
+        padding-left: 24px;
+        font-size: 20px;
+        margin-bottom: 16px;
         @include pad {
-        width: 256px;
+          width: 337px;
+          }   
+          @include spad{
+            width: 346px;
+          }
+        span{
+          vertical-align: middle;
+          margin-right: 8px;
         }
-      }
+        .phone {
+          margin-bottom: 8px;
+        }
+        .time {
+          margin-bottom: 8px;
+        }
+        .address {
+          // width: 336px;
+          @include pad {
+          // width: 256px;
+          }
+        }
+     }
+  }
+
+  .store-map{
+    @include spad {
+      width: 348px;
     }
+    @include pad {
+      width: 696px;
+    }
+  }
 }
