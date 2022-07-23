@@ -2869,6 +2869,28 @@ body {
     .container {
       max-width: 378px; } }
 
+.blog-header {
+  background: #650300; }
+  .blog-header .container .blog-menu-list {
+    font-size: 20px;
+    margin-right: 48px;
+    color: white;
+    line-height: 56px; }
+    @media (max-width: 767px) {
+      .blog-header .container .blog-menu-list {
+        display: none; } }
+
+.blog-title {
+  padding-left: 12px;
+  margin-bottom: 33px;
+  margin-top: 96px; }
+  .blog-title h1 {
+    padding-left: 16px;
+    border-left: 8px solid #9F1213; }
+    @media (max-width: 767px) {
+      .blog-title h1 {
+        font-size: 24px; } }
+
 .pagination {
   margin-bottom: 80px;
   display: flex;
