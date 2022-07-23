@@ -265,8 +265,10 @@ body{
 .container{
   margin: 0 auto;
   max-width: 1326px;
+  padding-left: 15px;
+  padding-right: 15px;
   @include pad {
-    max-width: 594px;
+    max-width: 726px;
   }
   @include spad {
     max-width: 378px;
