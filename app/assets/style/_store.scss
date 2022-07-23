@@ -1,2 +1,94 @@
 @import "./rwd";
 @import "./utilities";
+
+
+.location-title {
+  padding-left: 12px;
+  margin-bottom: 33px;
+  margin-top: 96px;
+  h1 {
+    padding-left: 16px;
+    border-left: 8px solid #9F1213 ;
+    @include spad {
+        font-size: 24px;
+  }
+  }
+}
+
+.search-bar{
+  padding-left: 12px;
+  margin-bottom: 46px;
+  @include spad {
+     margin-bottom: 24px;
+  }
+  label {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    @include spad {
+    font-size: 16px;
+  }
+  }
+  select {
+    // display: inline-block;
+    width: 304px;
+    height: 38px;
+    @include spad {
+        width: 276px;
+  }
+  }
+}
+
+.location {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  .location-card-container{
+    padding-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    gap: 48px 24px;
+    @include pad {
+        gap: 24px 24px;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+  }
+  .location-card-container .location-card {
+     img{
+      width: 414px;
+      height: 224px;
+      @include pad {
+        width: 335px;
+  }
+    }
+     h2{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 24px;
+    }
+     
+  }
+  .location-card-container .location-data{
+      padding-left: 24px;
+      font-size: 20px;
+      margin-bottom: 16px;
+      span{
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+      .phone {
+        margin-bottom: 8px;
+      }
+      .time {
+        margin-bottom: 8px;
+      }
+      .address {
+        width: 336px;
+        @include pad {
+        width: 256px;
+        }
+      }
+    }
+}
