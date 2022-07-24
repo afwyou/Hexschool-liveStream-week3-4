@@ -45,6 +45,7 @@
   }
   @include spad {
     width: 100%;
+    margin-bottom: 80px;
   }
   .special_content_list {
     @include pad {
@@ -72,6 +73,49 @@
      p {
        color: #555555;
      }
+  }
+  .share {
+    color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 24px;
+    @include spad {
+      display: none;
+    }
+  }
+
+  .pagelink{
+    @include spad {
+      display: none;
+    }
+    .last-page{
+      &::before{
+        content: "";
+        width: 24px;
+        height: 24px;
+        background-image: url(../images/arrow-left-solid.svg);
+        background-size: contain;
+        display: inline-block;
+        background-repeat: no-repeat;
+     vertical-align: middle;
+     margin-right: 12px;
+      }
+    }
+    .next-page{
+      &::after{
+        content: "";
+        width: 24px;
+        height: 24px;
+        background-image: url(../images/arrow-right-solid.svg);
+        background-size: contain;
+        display: inline-block;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-left: 12px;
+      }
+    }
   }
 }
 

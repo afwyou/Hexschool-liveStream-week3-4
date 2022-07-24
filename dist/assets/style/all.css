@@ -164,6 +164,9 @@ img {
 .mr-24 {
   margin-right: 24px; }
 
+.mr-16 {
+  margin-right: 16px; }
+
 .p-16 {
   padding: 16px; }
 
@@ -526,6 +529,9 @@ img {
 
 .mr-24 {
   margin-right: 24px; }
+
+.mr-16 {
+  margin-right: 16px; }
 
 .p-16 {
   padding: 16px; }
@@ -1022,6 +1028,9 @@ img {
 .mr-24 {
   margin-right: 24px; }
 
+.mr-16 {
+  margin-right: 16px; }
+
 .p-16 {
   padding: 16px; }
 
@@ -1412,6 +1421,9 @@ img {
 
 .mr-24 {
   margin-right: 24px; }
+
+.mr-16 {
+  margin-right: 16px; }
 
 .p-16 {
   padding: 16px; }
@@ -1805,6 +1817,9 @@ img {
 .mr-24 {
   margin-right: 24px; }
 
+.mr-16 {
+  margin-right: 16px; }
+
 .p-16 {
   padding: 16px; }
 
@@ -2158,6 +2173,9 @@ img {
 
 .mr-24 {
   margin-right: 24px; }
+
+.mr-16 {
+  margin-right: 16px; }
 
 .p-16 {
   padding: 16px; }
@@ -2517,6 +2535,9 @@ img {
 .mr-24 {
   margin-right: 24px; }
 
+.mr-16 {
+  margin-right: 16px; }
+
 .p-16 {
   padding: 16px; }
 
@@ -2795,6 +2816,9 @@ img {
 
 .mr-24 {
   margin-right: 24px; }
+
+.mr-16 {
+  margin-right: 16px; }
 
 .p-16 {
   padding: 16px; }
@@ -3180,6 +3204,9 @@ img {
 .mr-24 {
   margin-right: 24px; }
 
+.mr-16 {
+  margin-right: 16px; }
+
 .p-16 {
   padding: 16px; }
 
@@ -3359,7 +3386,8 @@ body {
       width: 75%; } }
   @media (max-width: 767px) {
     .special_column-left {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 80px; } }
   @media (max-width: 992px) {
     .special_column-left .special_content_list {
       margin-bottom: 24px; } }
@@ -3383,6 +3411,39 @@ body {
         margin-bottom: 8px; } }
   .special_column-left .special_content_list p {
     color: #555555; }
+  .special_column-left .share {
+    color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 24px; }
+    @media (max-width: 767px) {
+      .special_column-left .share {
+        display: none; } }
+  @media (max-width: 767px) {
+    .special_column-left .pagelink {
+      display: none; } }
+  .special_column-left .pagelink .last-page::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/arrow-left-solid.svg);
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 12px; }
+  .special_column-left .pagelink .next-page::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/arrow-right-solid.svg);
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 12px; }
 
 .special_column-right {
   width: 33.33%; }
