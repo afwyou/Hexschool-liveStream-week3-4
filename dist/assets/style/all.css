@@ -3432,6 +3432,8 @@ body {
     background-size: contain;
     display: inline-block;
     background-repeat: no-repeat;
+    position: relative;
+    top: -2px;
     vertical-align: middle;
     margin-right: 12px; }
   .special_column-left .pagelink .next-page::after {
@@ -3443,7 +3445,9 @@ body {
     display: inline-block;
     background-repeat: no-repeat;
     vertical-align: middle;
-    margin-left: 12px; }
+    margin-left: 12px;
+    position: relative;
+    top: -2px; }
 
 .special_column-right {
   width: 33.33%; }
