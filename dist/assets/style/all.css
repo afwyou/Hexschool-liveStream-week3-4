@@ -2915,41 +2915,55 @@ body {
       .blog-title h1 {
         font-size: 24px; } }
 
-.blog .blog_column-img {
+@media (max-width: 767px) {
+  .blog {
+    display: block;
+    margin-bottom: 24px; } }
+
+.blog_column-img {
   margin-right: 24px; }
 
-.blog .blog_column {
+.blog_column {
   margin-bottom: 60px;
   width: 50%; }
-  .blog .blog_column .blog_column_content-title {
+  @media (max-width: 767px) {
+    .blog_column {
+      width: 100%;
+      margin-bottom: 8px; } }
+  .blog_column_content-title {
     color: #650300; }
     @media (max-width: 992px) {
-      .blog .blog_column .blog_column_content-title {
+      .blog_column_content-title {
         margin-bottom: 0;
         font-size: 24px; } }
-  .blog .blog_column .blog_column_content-subtitle {
+    @media (max-width: 767px) {
+      .blog_column_content-title {
+        font-size: 24px; } }
+  .blog_column_content-subtitle {
     margin-bottom: 16px; }
     @media (max-width: 992px) {
-      .blog .blog_column .blog_column_content-subtitle {
+      .blog_column_content-subtitle {
         margin-bottom: 4px; } }
     @media (max-width: 992px) {
-      .blog .blog_column .blog_column_content-subtitle span {
+      .blog_column_content-subtitle span {
         font-size: 16px; } }
-  .blog .blog_column .blog_column_content-article {
+  .blog_column_content-article-for-desk {
     margin-bottom: 102px;
     color: #555555;
     padding-right: 6px; }
     @media (max-width: 992px) {
-      .blog .blog_column .blog_column_content-article {
-        text-overflow: ellipsis;
-        height: 144px;
-        padding-right: 0px; } }
-    .blog .blog_column .blog_column_content-article a {
-      display: none; }
-      @media (max-width: 992px) {
-        .blog .blog_column .blog_column_content-article a {
-          display: inline-block;
-          color: #555555; } }
+      .blog_column_content-article-for-desk {
+        display: none; } }
+  .blog_column_content-article-for-pad {
+    width: 336px;
+    height: 144px;
+    display: none; }
+    @media (max-width: 992px) {
+      .blog_column_content-article-for-pad {
+        display: block; } }
+    @media (max-width: 767px) {
+      .blog_column_content-article-for-pad {
+        display: none; } }
 
 .blog .blog_column .blog_column_content button {
   border: none;

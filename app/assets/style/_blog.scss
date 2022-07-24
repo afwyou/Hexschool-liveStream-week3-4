@@ -32,20 +32,31 @@
 
 
 .blog {
-  .blog_column-img{
+  @include spad {
+    display: block;
+    margin-bottom: 24px;
+  }
+  &_column-img{
     margin-right: 24px;
   }
-  .blog_column{
+  &_column{
     margin-bottom: 60px;
     width: 50%;
-    .blog_column_content-title{
+    @include spad {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    &_content-title{
       color: #650300;
       @include pad {
         margin-bottom: 0;
         font-size: 24px;
       }
+      @include spad {
+        font-size: 24px;
+      }
     }
-    .blog_column_content-subtitle{
+    &_content-subtitle{
       margin-bottom: 16px;
       @include pad {
         margin-bottom: 4px;
@@ -56,22 +67,23 @@
       }
       }
     }
-    .blog_column_content-article{
+    &_content-article-for-desk{
       margin-bottom: 102px;
       color: #555555;
       padding-right: 6px;
       @include  pad {
-        text-overflow: ellipsis;
-        height: 144px;
-        padding-right: 0px;
-
+        display:none;
       }
-      a {
+    }
+    &_content-article-for-pad {
+      width: 336px;
+      height: 144px;
+      display: none;
+      @include pad {
+        display: block;
+      }
+      @include spad {
         display: none;
-        @include pad {
-          display: inline-block;
-          color: #555555;
-        }
       }
     }
   }
