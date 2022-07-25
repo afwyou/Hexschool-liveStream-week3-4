@@ -1984,8 +1984,8 @@ body {
 
 .location-title {
   padding-left: 12px;
-  margin-bottom: 33px;
-  margin-top: 96px; }
+  padding-bottom: 33px;
+  padding-top: 96px; }
   .location-title h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213; }
