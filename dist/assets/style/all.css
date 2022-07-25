@@ -361,8 +361,8 @@ body {
         .header .container .menu:hover {
           border: 2px solid white; } }
 
-.show-menu .menu {
-  max-height: 110px; }
+.show-menu .menu-list {
+  max-height: 110px !important; }
 
 .footer {
   background: #AA0601;

@@ -1,5 +1,6 @@
-console.log('Hello!');
-
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
+$(document).ready(function () {
+  $('.menu').on('click', function (e) {
+    e.preventDefault();
+    $('header').toggleClass('show-menu')
+  })
 });
