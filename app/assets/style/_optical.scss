@@ -121,11 +121,11 @@
 }
 
 .pagination{
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   @include spad {
-       margin-bottom: 64px;
+       padding-bottom: 64px;
      }
     ul{
       // display: inline-block;

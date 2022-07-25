@@ -1282,12 +1282,12 @@ body {
     background: #B75929; }
 
 .pagination {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center; }
   @media (max-width: 767px) {
     .pagination {
-      margin-bottom: 64px; } }
+      padding-bottom: 64px; } }
   .pagination ul {
     margin: 0 auto; }
   .pagination ul li {
@@ -2341,8 +2341,8 @@ body {
 
 .location-title {
   padding-left: 12px;
-  margin-bottom: 33px;
-  margin-top: 96px; }
+  padding-bottom: 33px;
+  padding-top: 96px; }
   .location-title h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213; }
@@ -2702,8 +2702,8 @@ body {
 
 .question-title {
   padding-left: 12px;
-  margin-bottom: 33px;
-  margin-top: 96px; }
+  padding-bottom: 33px;
+  padding-top: 96px; }
   .question-title h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213; }
@@ -2995,8 +2995,8 @@ body {
 
 .blog-title {
   padding-left: 12px;
-  margin-bottom: 33px;
-  margin-top: 96px; }
+  padding-bottom: 33px;
+  padding-top: 96px; }
   .blog-title h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213; }
