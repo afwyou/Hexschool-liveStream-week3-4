@@ -324,20 +324,20 @@ body {
     background-repeat: no-repeat;
     text-indent: 101%;
     white-space: nowrap;
-    overflow: hidden; }
-    @media (max-width: 767px) {
-      .header .container .logo {
-        margin-left: 16px; } }
+    overflow: hidden;
+    margin-left: 16px; }
   .header .container .menu-list {
     background: #AA0601;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-right: 24px; }
     @media (max-width: 767px) {
       .header .container .menu-list {
         position: absolute;
         top: 78px;
         max-height: 0;
         overflow: hidden;
-        transition: 0.3s; } }
+        transition: 0.3s;
+        margin-right: 16px; } }
     .header .container .menu-list li {
       margin-left: 64px;
       line-height: 54px;
@@ -1995,10 +1995,10 @@ body {
 
 .search-bar {
   padding-left: 12px;
-  margin-bottom: 46px; }
+  padding-bottom: 46px; }
   @media (max-width: 767px) {
     .search-bar {
-      margin-bottom: 24px; } }
+      padding-bottom: 24px; } }
   .search-bar label {
     font-size: 24px;
     margin-right: 16px;
@@ -2014,7 +2014,7 @@ body {
         width: 276px; } }
 
 .location {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center; }
   .location .location-card-container {
@@ -2352,10 +2352,10 @@ body {
 
 .search-bar {
   padding-left: 12px;
-  margin-bottom: 46px; }
+  padding-bottom: 46px; }
   @media (max-width: 767px) {
     .search-bar {
-      margin-bottom: 24px; } }
+      padding-bottom: 24px; } }
   .search-bar label {
     font-size: 24px;
     margin-right: 16px;
@@ -2371,7 +2371,7 @@ body {
         width: 276px; } }
 
 .store {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2382,7 +2382,7 @@ body {
     @media (max-width: 992px) {
       .store .store-card-container {
         max-width: 696px;
-        margin-bottom: 24px;
+        padding-bottom: 24px;
         display: flex; } }
     @media (max-width: 767px) {
       .store .store-card-container {

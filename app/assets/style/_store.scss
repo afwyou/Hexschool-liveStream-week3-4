@@ -17,9 +17,9 @@
 
 .search-bar{
   padding-left: 12px;
-  margin-bottom: 46px;
+  padding-bottom: 46px;
   @include spad {
-     margin-bottom: 24px;
+     padding-bottom: 24px;
   }
   label {
     font-size: 24px;
@@ -40,7 +40,7 @@
 }
 
 .store {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -52,7 +52,7 @@
     font-weight: 400;
     @include pad {
      max-width: 696px;
-     margin-bottom: 24px;
+     padding-bottom: 24px;
      display: flex;
     }
     @include spad{

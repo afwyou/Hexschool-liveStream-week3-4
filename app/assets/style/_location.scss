@@ -17,9 +17,9 @@
 
 .search-bar{
   padding-left: 12px;
-  margin-bottom: 46px;
+  padding-bottom: 46px;
   @include spad {
-     margin-bottom: 24px;
+     padding-bottom: 24px;
   }
   label {
     font-size: 24px;
@@ -40,7 +40,7 @@
 }
 
 .location {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   .location-card-container{
