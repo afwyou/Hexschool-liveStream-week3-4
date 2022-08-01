@@ -550,6 +550,10 @@ body {
   }
 }
 
+.footer .footer-social li {
+  border-radius: 25px;
+}
+
 .footer .footer-menu-list li {
   margin-right: 24px;
 }
@@ -568,6 +572,7 @@ body {
   width: 48px;
   height: 48px;
   margin-left: 32px;
+  border-radius: 25px;
 }
 
 @media (max-width: 992px) {
@@ -588,23 +593,23 @@ body {
   background: green;
 }
 
-.footer h3 {
+.footer .phone, .footer .mail {
   font-size: 36px;
   color: white;
 }
 
 @media (max-width: 767px) {
-  .footer h3 {
+  .footer .phone, .footer .mail {
     font-size: 16px;
   }
 }
 
-.footer h3 i {
+.footer .phone i, .footer .mail i {
   margin-right: 22px;
 }
 
 @media (max-width: 767px) {
-  .footer h3 i {
+  .footer .phone i, .footer .mail i {
     margin-right: 10px;
   }
 }

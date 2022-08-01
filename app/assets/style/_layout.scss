@@ -82,6 +82,9 @@
     @include spad{
     align-self: flex-end;
     }
+    li {
+      border-radius: 25px;
+    }
 
   }
   .footer-menu-list li{
@@ -102,6 +105,7 @@
     width: 48px;
     height: 48px;
     margin-left: 32px;
+    border-radius: 25px;
     @include pad{
       margin-left: 16px;
     }
@@ -117,19 +121,20 @@
     }
   
   }
-  h3{
+  .phone, .mail{
     font-size: 36px;
     color: white;
     @include spad {
       font-size: 16px;
     }
-  }
-  h3 i {
+    i {
     margin-right: 22px;
     @include spad{
       margin-right: 10px;
     }
   }
+  }
+   
   .mail{
     border-bottom: 1px solid #fff;
     @include spad{
