@@ -5,6 +5,7 @@
 .optical-menu {
   ul{
     li{
+      border-right: 1px solid #DCDCDC;
       width: 33.3%;
       text-align: center;
       padding-top: 24px;
@@ -20,21 +21,23 @@
     }
     .optical-menu-list{
       border-bottom: 8px solid #AA0601;
+      border-left: 1px solid #DCDCDC;
     }
 
   }
 }
 .optical-bg{
   display: flex;
+  // justify-content: center;
   .optical-bg-item{
-    width: 960px;
+    width: 50vw;
     height: calc(0.3*100vw*0.5);
     // 讓高跟著寬度變化
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     @include pad {
-      width: 384px;
+      width: 50vw;
       height: 296px;
     }
     @include spad {
@@ -130,13 +133,16 @@
     ul{
       // display: inline-block;
       margin: 0 auto;
-    }
+    }   
     ul li{
      width: 42px;
      height: 48px;
-     border: 1px solid #555555;
+     border-top: 1px solid #555555;
+     border-left: 1px solid #555555;
+     border-bottom: 1px solid #555555;
      font-size: 18px;
      line-height: 48px;
+     text-align: center;
      color: #555555;
      @include spad {
        font-size: 16px;
@@ -155,6 +161,7 @@
     }
     ul .next{
       background: #F2F2F2;
+      border-right: 1px solid black;
     }
     ul .page-2{
       background: #000;
