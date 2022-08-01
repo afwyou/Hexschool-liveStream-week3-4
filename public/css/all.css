@@ -3130,13 +3130,17 @@ body {
 @media (max-width: 992px) {
   .location .location-card-container {
     gap: 24px 24px;
-    padding-left: 34px;
-    padding-right: 34px;
   }
 }
 
 .location .location-card-container .location-card {
   border: 1px solid #00000020;
+}
+
+@media (max-width: 767px) {
+  .location .location-card-container .location-card {
+    width: 100%;
+  }
 }
 
 .location .location-card-container .location-card img {
@@ -3146,7 +3150,7 @@ body {
 
 @media (max-width: 992px) {
   .location .location-card-container .location-card img {
-    width: 335px;
+    width: 100%;
   }
 }
 
@@ -3651,6 +3655,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -3660,13 +3667,14 @@ body {
 }
 
 .store .store-card-container {
+  width: 41.6%;
   margin-right: 24px;
   font-weight: 400;
 }
 
 @media (max-width: 992px) {
   .store .store-card-container {
-    max-width: 696px;
+    width: 100%;
     padding-bottom: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3676,7 +3684,6 @@ body {
 
 @media (max-width: 767px) {
   .store .store-card-container {
-    width: 348px;
     margin-right: 0;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -3684,24 +3691,36 @@ body {
 }
 
 .store .store-card-container .store-img {
-  width: 526px;
+  width: 100%;
 }
 
 @media (max-width: 992px) {
   .store .store-card-container .store-img {
-    width: 337px;
+    width: 50%;
     margin-right: 24px;
   }
 }
 
 @media (max-width: 767px) {
   .store .store-card-container .store-img {
-    width: 348px;
+    width: 100%;
   }
 }
 
 .store .store-card-container .store-card {
   border: 1px solid #00000020;
+}
+
+@media (max-width: 992px) {
+  .store .store-card-container .store-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .store .store-card-container .store-card {
+    width: 100%;
+  }
 }
 
 .store .store-card-container .store-card .store-card-list-title {
@@ -3750,7 +3769,7 @@ body {
 
 @media (max-width: 992px) {
   .store .store-map {
-    width: 696px;
+    width: 100%;
   }
 }
 

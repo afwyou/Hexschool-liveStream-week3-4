@@ -51,18 +51,21 @@
     gap: 48px 24px;
     @include pad {
         gap: 24px 24px;
-        padding-left: 34px;
-        padding-right: 34px;
+        // padding-left: 34px;
+        // padding-right: 34px;
     }
   }
   .location-card-container .location-card {
     // width: 416px;
     border: 1px solid #00000020;
+    @include spad {
+      width: 100%;
+    }
      img{
       width: 414px;
       height: 224px;
       @include pad {
-        width: 335px;
+        width: 100%;
   }
     }
      h2{
