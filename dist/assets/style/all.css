@@ -302,15 +302,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .header {
   background: #AA0601; }
@@ -685,15 +685,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .banner {
   color: #650300;
@@ -1183,15 +1183,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .optical-menu ul li {
   width: 33.3%;
@@ -1577,15 +1577,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .sunglass-menu ul li {
   width: 33.3%;
@@ -1972,15 +1972,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .location-title {
   padding-left: 12px;
@@ -2329,15 +2329,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .location-title {
   padding-left: 12px;
@@ -2690,15 +2690,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .question-title {
   padding-left: 12px;
@@ -2972,15 +2972,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .blog-header {
   background: #650300; }
@@ -3359,15 +3359,15 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px; }
   @media (max-width: 992px) {
     .container {
-      max-width: 726px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 378px; } }
+      max-width: 100%; } }
 
 .special-header {
   background: #650300; }

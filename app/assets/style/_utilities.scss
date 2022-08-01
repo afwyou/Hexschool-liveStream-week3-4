@@ -276,13 +276,13 @@ body{
 }
 .container{
   margin: 0 auto;
-  max-width: 1326px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1320px;
+  padding-left: 12px;
+  padding-right: 12px;
   @include pad {
-    max-width: 726px;
+    max-width: 720px;
   }
   @include spad {
-    max-width: 378px;
+    max-width: 100%;
   }
 }
