@@ -253,6 +253,7 @@ img {
     display: inline-block;
   }
   .link{
+    display: incline-block;
     text-decoration: none;
     color: black;
     &:hover{
@@ -260,11 +261,13 @@ img {
     }
   }
   .link-layout{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: incline-block;
     text-decoration: none;
     color: white;
     &:hover{
       color:#B75929;
-      // background:yellow;
     }
   }
  

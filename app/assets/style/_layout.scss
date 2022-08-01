@@ -7,6 +7,8 @@
     padding: 12px 0px;
   }
   .container .logo {
+    // padding-right: 10px;
+    // padding-left: 10px;
     width: 80px;
     height: 48px;
     background-image: url(../images/logo-white.png);
@@ -95,8 +97,8 @@
   }
   .footer-menu-list a{
     font-size: 16px;
-    color: white;
-    text-decoration: none;
+    // color: white;
+    // text-decoration: none;
     
   }
   
@@ -110,6 +112,12 @@
     @include spad{
       margin-left: 8px;
     }
+    &:hover{
+      
+      background: green;
+    
+    }
+  
   }
   h3{
     font-size: 36px;
