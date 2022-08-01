@@ -80,8 +80,6 @@
   }
   .footer-social {
     @include spad{
-    // position: relative;
-    // top: 50px; //透過將父層高度關閉之後，高度自然就往下跑了
     align-self: flex-end;
     }
 
@@ -109,6 +107,8 @@
     }
     @include spad{
       margin-left: 8px;
+      width: 24px;  
+      height: 24px;
     }
     &:hover{
       
@@ -146,6 +146,14 @@
       // color: black;
       li{
         margin-top: 8px;
+      }
+    }
+    ul{
+      display: flex;
+      gap: 48px;
+      @include spad {
+        flex-direction: column;
+        gap: 0px;
       }
     }
   

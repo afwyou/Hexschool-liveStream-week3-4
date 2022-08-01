@@ -579,6 +579,8 @@ body {
 @media (max-width: 767px) {
   .footer img {
     margin-left: 8px;
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -634,6 +636,23 @@ body {
   }
   .footer .copyright li {
     margin-top: 8px;
+  }
+}
+
+.footer .copyright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+
+@media (max-width: 767px) {
+  .footer .copyright ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
   }
 }
 

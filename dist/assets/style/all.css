@@ -398,7 +398,9 @@ body {
         margin-left: 16px; } }
     @media (max-width: 767px) {
       .footer img {
-        margin-left: 8px; } }
+        margin-left: 8px;
+        width: 24px;
+        height: 24px; } }
     .footer img:hover {
       background: green; }
   .footer h3 {
@@ -426,6 +428,13 @@ body {
         flex-direction: column; }
         .footer .copyright li {
           margin-top: 8px; } }
+    .footer .copyright ul {
+      display: flex;
+      gap: 48px; }
+      @media (max-width: 767px) {
+        .footer .copyright ul {
+          flex-direction: column;
+          gap: 0px; } }
 
 .c-light {
   color: #FBF2F2; }
