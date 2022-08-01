@@ -3,12 +3,7 @@
 
 .header{
   background:#AA0601;
-  .container{
-    padding: 12px 0px;
-  }
   .container .logo {
-    // padding-right: 10px;
-    // padding-left: 10px;
     width: 80px;
     height: 48px;
     background-image: url(../images/logo-white.png);
@@ -22,7 +17,8 @@
   .container .menu-list{
     background: #AA0601;
     flex-wrap: wrap;
-    margin-right: 24px;
+    // 已經有container的左右padding
+    // margin-right: 24px;
 
     @include spad {
       position: absolute;
