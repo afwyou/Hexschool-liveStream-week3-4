@@ -704,7 +704,6 @@ body {
 
 .banner {
   color: #650300;
-  max-width: 1920px;
   height: 787px;
   background-image: url(../images/home-header.png);
   background-position: center;
@@ -757,9 +756,14 @@ body {
   @media (max-width: 767px) {
     .professional .container h2 {
       font-size: 24px; } }
-  @media (max-width: 992px) {
-    .professional ul {
-      flex-wrap: wrap; } }
+  .professional ul {
+    gap: 24px; }
+    @media (max-width: 992px) {
+      .professional ul {
+        flex-wrap: wrap; } }
+    @media (max-width: 767px) {
+      .professional ul {
+        justify-content: center; } }
   .professional li {
     width: 25%; }
     @media (max-width: 992px) {
@@ -767,7 +771,14 @@ body {
         width: 46%; } }
     @media (max-width: 767px) {
       .professional li {
-        width: 98%; } }
+        width: 348px; } }
+    .professional li img {
+      width: 83px;
+      height: 83px; }
+      @media (max-width: 767px) {
+        .professional li img {
+          width: 100px;
+          height: 100px; } }
 
 @media (max-width: 992px) {
   .classical .container {
@@ -778,9 +789,11 @@ body {
   .classical .container h2 {
     font-size: 24px; } }
 
-@media (max-width: 992px) {
-  .classical .container ul {
-    flex-direction: column; } }
+.classical .container ul {
+  gap: 24px; }
+  @media (max-width: 992px) {
+    .classical .container ul {
+      flex-direction: column; } }
 
 .classical .container li {
   width: 648px; }
@@ -801,19 +814,18 @@ body {
   @media (max-width: 767px) {
     .co-design h2 {
       font-size: 24px; } }
-  .co-design ul {
-    padding-left: 24px;
-    padding-right: 24px; }
-    @media (max-width: 992px) {
-      .co-design ul {
-        padding-left: 0px;
-        padding-right: 0;
-        flex-wrap: wrap;
-        margin-left: 36px;
-        margin-right: 36px; } }
+  @media (max-width: 992px) {
+    .co-design ul {
+      padding-left: 0px;
+      padding-right: 0;
+      flex-wrap: wrap; } }
   @media (max-width: 992px) and (max-width: 992px) {
     .co-design ul .DOUBLE {
       margin-bottom: 24px; } }
+  @media (max-width: 767px) {
+    .co-design ul {
+      margin-right: 0;
+      margin-left: 0; } }
   .co-design li {
     background: white;
     width: 648px; }
@@ -843,9 +855,14 @@ body {
       .co-design .design-bg2 {
         background-image: url(../images/home-section4-2-sm.png); } }
 
-@media (max-width: 992px) {
-  .recommend ul {
-    flex-wrap: wrap; } }
+.recommend ul {
+  gap: 24px; }
+  @media (max-width: 992px) {
+    .recommend ul {
+      flex-wrap: wrap; } }
+  @media (max-width: 767px) {
+    .recommend ul {
+      justify-content: center; } }
 
 .recommend li {
   box-shadow: 0px 2px 6px #00000029;
@@ -853,11 +870,11 @@ body {
   border-radius: 4px; }
   @media (max-width: 992px) {
     .recommend li {
-      width: 45%;
+      width: 336px;
       margin-bottom: 24px; } }
   @media (max-width: 767px) {
     .recommend li {
-      width: 97%;
+      width: 348px;
       display: flex;
       flex-direction: column; } }
   @media (max-width: 992px) {
@@ -868,7 +885,7 @@ body {
     .recommend li img {
       width: 348px;
       align-self: center; } }
-  .recommend li p {
+  .recommend li p, .recommend li time, .recommend li h3 {
     padding-left: 16px;
     padding-right: 16px; }
 
@@ -901,12 +918,15 @@ body {
     margin-top: 8px;
     max-width: 636px;
     height: 33px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    background: none;
+    border: 1px solid black; }
   .contact .container textarea {
     max-width: 636px;
     height: 136px;
     margin-top: 8px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    background: none; }
   .contact .container button {
     width: 416px;
     height: 56px;
@@ -921,6 +941,8 @@ body {
     @media (max-width: 767px) {
       .contact .container button {
         max-width: 348 px; } }
+    .contact .container button a {
+      display: block; }
   .contact .container .checkbox {
     width: 24px;
     height: 24px;
