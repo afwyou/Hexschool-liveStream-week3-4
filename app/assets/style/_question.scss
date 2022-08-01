@@ -7,9 +7,15 @@
   padding-left: 12px;
   padding-bottom: 33px;
   padding-top: 96px;
+  @include pad {
+    padding-top: 80px;
+  }
   h1 {
     padding-left: 16px;
     border-left: 8px solid #9F1213 ;
+    @include pad {
+      font-size: 48px;
+    }
     @include spad {
         font-size: 24px;
   }
