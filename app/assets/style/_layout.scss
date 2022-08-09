@@ -88,9 +88,11 @@
 
   }
   .footer-menu-list li{
-    margin-right: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
     @include pad {
-      margin-right: 16px;
+      margin-right: 8px;
+      margin-left: 8px;
     }
     
   }

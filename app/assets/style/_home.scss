@@ -112,7 +112,7 @@
       }
     }
     li {
-      width: 648px;
+      width: 33.3%;
       @include pad {
         width: 98%;
         margin-bottom: 24px;
@@ -157,7 +157,7 @@
   }
   li{
     background: white;
-    width: 648px;
+    width: 50%;
     // 設定max-width 沒辦法讓li自適應父層寬度，因為在df的作用下，主軸方向元素會自適應內容寬度，導致li寬度變得跟下面標題寬度一樣，交錯軸才會適應父曾寬度
     @include pad {
       width: 696px;
@@ -209,12 +209,13 @@
     box-shadow: 0px 2px 6px #00000029;
     border: 1px solid #DEE2E6;
     border-radius: 4px;
+    width: 25%;
     @include pad {
-      width: 336px;
+      width: 48%;
       margin-bottom: 24px;
     }
     @include spad{
-      width: 348px;
+      width: 100%;
       display: flex;
       flex-direction: column;
       // align-items: center;
